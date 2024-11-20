@@ -1,4 +1,29 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Página Pablo Lahoz'
 theme = 'gokarna-hugo'
+
+[menu]
+  [[menu.main]]
+    name = "Markdown"
+    pre = "<span data-feather='book'></span>"
+    url = "/markdown/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Carrousel Imágenes"
+    pre = "<span data-feather='image'></span>"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Canales TV"
+    pre = "<span data-feather='tv'></span>"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contenido"
+    pre = "<span data-feather='tv'></span>"
+    url = "/tags/"
+    weight = 4

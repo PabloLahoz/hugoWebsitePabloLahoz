@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Página Pablo Lahoz</title>
     <link>http://localhost:41891/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Página Pablo Lahoz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:41891/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:41891/index-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:41891/index-about/</guid>
+      <description>&lt;h2 id=&#34;sobre-mí&#34;&gt;Sobre mí&lt;/h2&gt;&#xA;&lt;h4 id=&#34;soy-un-técnico-en-sistemas-microinformáticos-y-redes-actualmente-estoy-estudiando-un-grado-superior-de-desarrollo-de-aplicaciones-web-en-cpifp-los-enlaces&#34;&gt;Soy un Técnico en Sistemas Microinformáticos y Redes. Actualmente estoy estudiando un Grado Superior de Desarrollo de Aplicaciones Web en CPIFP Los Enlaces.&lt;/h4&gt;</description>
+    </item>
   </channel>
 </rss>
