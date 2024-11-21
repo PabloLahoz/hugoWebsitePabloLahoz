@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'Página Pablo Lahoz'
 theme = 'gokarna-hugo'
 
+[params]
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarURL = "/images/avatar.jpeg"
+
+
 [menu]
   [[menu.main]]
     name = "Markdown"
