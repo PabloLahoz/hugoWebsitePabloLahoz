@@ -6,8 +6,15 @@
     <description>Recent content on Página Pablo Lahoz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2024 18:31:41 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2024 19:54:45 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galería de Imágenes</title>
+      <link>http://localhost:1313/galeria/</link>
+      <pubDate>Thu, 21 Nov 2024 19:54:45 +0100</pubDate>
+      <guid>http://localhost:1313/galeria/</guid>
+      <description>&lt;h2 id=&#34;mis-vacaciones-en-los-pueblos-de-girona&#34;&gt;MIS VACACIONES EN LOS PUEBLOS DE GIRONA&lt;/h2&gt;&#xA;&lt;p&gt;Este verano, tuve la suerte de pasar una semana inolvidable con mi familia explorando los encantadores pueblos de la provincia de Girona. Durante esos días, descubrimos la riqueza cultural, los paisajes naturales únicos y la deliciosa gastronomía que hacen de esta región un lugar mágico.&lt;/p&gt;&#xA;&lt;p&gt;Imagen del puerto de Cadaques&#xA;&lt;img src=&#34;http://localhost:1313/images/imagen1.jpeg&#34; alt=&#34;Cadaques&#34; title=&#34;Cadaques&#34;&gt;&#xA;Foto tomada en un paseo que conecta con el pueblo de al lado, Llafranc - Calella&#xA;&lt;img src=&#34;http://localhost:1313/images/imagen2.jpeg&#34; alt=&#34;Llafranc&#34; title=&#34;Llafranc&#34;&gt;&#xA;Foto desde un mirador donde se ve la playa de Begur&#xA;&lt;img src=&#34;http://localhost:1313/images/imagen3.jpeg&#34; alt=&#34;Begur&#34; title=&#34;Begur&#34;&gt;&#xA;¡La venecia española, Empuriabrava! La primera vez que hago un viaje en lancha&#xA;&lt;img src=&#34;http://localhost:1313/images/imagen4.jpeg&#34; alt=&#34;Empuriabrava&#34; title=&#34;Empuriabrava&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/imagen5.jpeg&#34; alt=&#34;Empuriabrava&#34; title=&#34;Empuriabrava&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Graficos Mermaid</title>
       <link>http://localhost:1313/markdown/graficos/</link>
