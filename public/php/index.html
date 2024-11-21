@@ -180,6 +180,28 @@
 </span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;Eres menor de edad.&#34;</span>;
 </span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="bucles">Bucles</h2>
+<p>Los bucles permiten ejecutar repetidamente un bloque de código mientras se cumple una condición.</p>
+<ul>
+<li><code>for</code>: Se usa cuando conoeces el número de iteraciones.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> ($i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; $i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">5</span>; $i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">echo</span> $i;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>while</code>: Repite mientras la condición sea verdadera.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>$contador <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> ($contador <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">5</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">echo</span> $contador;
+</span></span><span style="display:flex;"><span>    $contador<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="funciones">Funciones</h2>
+<p>Las funciones encapsulan bloques de código que puedes reutilizar. Permiten organizar el programa en tareas específicas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">saludar</span>($nombre) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hola, </span><span style="color:#e6db74">$nombre</span><span style="color:#e6db74">!&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">echo</span> <span style="color:#a6e22e">saludar</span>(<span style="color:#e6db74">&#34;Pablo&#34;</span>);
 </span></span></code></pre></div>
     </div>
     

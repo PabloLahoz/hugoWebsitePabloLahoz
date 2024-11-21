@@ -42,3 +42,29 @@ if ($edad >= 18) {
     echo "Eres menor de edad.";
 }
 ```
+
+## Bucles
+Los bucles permiten ejecutar repetidamente un bloque de código mientras se cumple una condición.
+- ```for```: Se usa cuando conoeces el número de iteraciones.
+```php
+for ($i = 1; $i <= 5; $i++) {
+    echo $i;
+}
+```
+- ```while```: Repite mientras la condición sea verdadera.
+```php
+$contador = 1;
+while ($contador <= 5) {
+    echo $contador;
+    $contador++;
+}
+```
+
+## Funciones
+Las funciones encapsulan bloques de código que puedes reutilizar. Permiten organizar el programa en tareas específicas.
+```php
+function saludar($nombre) {
+    return "Hola, $nombre!";
+}
+echo saludar("Pablo");
+```
