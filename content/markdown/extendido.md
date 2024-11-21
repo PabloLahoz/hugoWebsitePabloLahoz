@@ -1,11 +1,10 @@
 +++
 date = '2024-11-21T17:06:59+01:00'
 draft = false
-title = 'Extendido'
+title = 'Markdown Extendido'
 type = 'post'
 +++
 
-# MARKDOWN EXTENDIDO
 
 ## TABLAS
 

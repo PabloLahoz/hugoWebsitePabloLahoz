@@ -1,11 +1,11 @@
 +++
 date = '2024-11-20T21:35:59+01:00'
 draft = false
-title = 'Basico'
+title = 'Markdown Básico'
 type = "post"
 +++
 
-# Markdown Básico
+
 
 ## Cabecera
 ```
