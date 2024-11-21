@@ -17,26 +17,26 @@
     
 
     
-    <title>Markdowns</title>
-    <meta name="description" content="">
+    <title>Graficos Mermaid</title>
+    <meta name="description" content="Para este apartado se ha debido modificar el tema añadiendo un script a head.html y crear un shortcode mermaid.html en la carpeta layouts. Diagrama de flujo …">
     <meta name="keywords" content=''>
 
-    <meta property="og:url" content="http://localhost:1313/markdown/">
+    <meta property="og:url" content="http://localhost:1313/markdown/graficos/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Markdowns">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Graficos Mermaid">
+    <meta property="og:description" content="Para este apartado se ha debido modificar el tema añadiendo un script a head.html y crear un shortcode mermaid.html en la carpeta layouts. Diagrama de flujo …">
     <meta property="og:image" content="http://localhost:1313/">
     <meta property="og:image:secure_url" content="http://localhost:1313/">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Markdowns">
-    <meta name="twitter:description" content="">
-    <meta property="twitter:domain" content="http://localhost:1313/markdown/">
-    <meta property="twitter:url" content="http://localhost:1313/markdown/">
+    <meta name="twitter:title" content="Graficos Mermaid">
+    <meta name="twitter:description" content="Para este apartado se ha debido modificar el tema añadiendo un script a head.html y crear un shortcode mermaid.html en la carpeta layouts. Diagrama de flujo …">
+    <meta property="twitter:domain" content="http://localhost:1313/markdown/graficos/">
+    <meta property="twitter:url" content="http://localhost:1313/markdown/graficos/">
     <meta name="twitter:image" content="http://localhost:1313/">
 
     
-    <link rel="canonical" href="http://localhost:1313/markdown/">
+    <link rel="canonical" href="http://localhost:1313/markdown/graficos/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -136,59 +136,120 @@
     </nav>
 </header>
 <main id="content">
-    <div class="container list-posts">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Graficos Mermaid</h1>
 
-    <h1 class="list-title"></h1>
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle"></small>
+	
+
+	
+          <p class="post-date">November 21, 2024
+           
+          </p>
+	
+
+        <ul class="post-tags">
+          
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h4 id="para-este-apartado-se-ha-debido-modificar-el-tema-añadiendo-un-script-a-headhtml-y-crear-un-shortcode-mermaidhtml-en-la-carpeta-layouts">Para este apartado se ha debido modificar el tema añadiendo un script a head.html y crear un shortcode mermaid.html en la carpeta layouts.</h4>
+<h2 id="diagrama-de-flujo">Diagrama de flujo</h2>
+<p>Para crear un diagrama de flujo se puede usar <code>graph</code> o <code>flowchart</code></p>
+<p>También puedes orientarlo:</p>
+<ul>
+<li>TB - De arriba al fondo</li>
+<li>TD - De arriba a abajo</li>
+<li>BT - Del fondo a arriba</li>
+<li>RL - De derecha a izquierda</li>
+<li>LR - De izquierda a derecha</li>
+</ul>
+<pre tabindex="0"><code>flowchart BT
+navegador --Llama--&gt; B[Servidor web]
+A --&gt; B
+A --&gt; C
+B --&gt; C
+C --&gt; D
+</code></pre><h3 id="se-verá">Se verá:</h3>
+<div class="mermaid">
+  
+flowchart BT
+navegador --Llama--> B[Servidor web]
+A --> B
+A --> C
+B --> C
+C --> D
+
+</div>
+
+<h2 id="gráfico-circular">Gráfico circular</h2>
+<pre tabindex="0"><code>pie title Actividades
+        &#34;Dormir&#34; : 34
+        &#34;Instituto&#34; : 25
+        &#34;TV&#34; : 8
+        &#34;Jugar&#34; : 8
+        &#34;Música&#34; : 25
+</code></pre><h3 id="se-verá-1">Se verá:</h3>
+<div class="mermaid">
+  
+pie title Actividades
+        "Dormir" : 34
+        "Instituto" : 25
+        "TV" : 8
+        "Jugar" : 8
+        "Música" : 25
+
+</div>
+
+<h2 id="diagrama-de-secuencia">Diagrama de secuencia</h2>
+<pre tabindex="0"><code>sequenceDiagram
+    participant Usuario
+    participant Servidor
+    Usuario-&gt;&gt;Servidor: Solicita recurso
+    Servidor--&gt;&gt;Usuario: Devuelve recurso
+</code></pre><h3 id="se-verá-2">Se verá:</h3>
+<div class="mermaid">
+  
+sequenceDiagram
+    participant Usuario
+    participant Servidor
+    Usuario->>Servidor: Solicita recurso
+    Servidor-->>Usuario: Devuelve recurso
+
+</div>
+
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
 
     
-
-    <h2 class="posts-year">2024</h2><div class="post-title">
-     <a href="http://localhost:1313/markdown/graficos/" class="post-link">Graficos Mermaid</a>
-     
-     
-     
-     
-
-     
-
-     
-      <div class="flex-break"></div>
-      <span class="post-date">November 21, 2024</span>
-     
+    
+    
 </div>
-<div class="post-title">
-     <a href="http://localhost:1313/markdown/extendido/" class="post-link">Markdown Extendido</a>
-     
-     
-     
-     
 
-     
 
-     
-      <div class="flex-break"></div>
-      <span class="post-date">November 21, 2024</span>
-     
-</div>
-<div class="post-title">
-     <a href="http://localhost:1313/markdown/basico/" class="post-link">Markdown Básico</a>
-     
-     
-     
-     
-
-     
-
-     
-      <div class="flex-break"></div>
-      <span class="post-date">November 20, 2024</span>
-     
-</div>
 
     
-
-</div>
-
 
         </main><footer class="footer">
     
