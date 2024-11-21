@@ -56,3 +56,65 @@ Este texto ___está en cursiva___
 Este texto ***está en negrita y cursiva***
 
 Este texto ___está en negrita y cursiva___
+
+---
+## TIPOS DE LISTAS
+
+Para listas desordenadas se utiliza ```*, - y +```.
+Para listas ordenadas se utiliza ```1., 2., etc...```
+```
+1. Título: Titanic
+    - Año: 1997
+    - Duración: 195 min
+    - Director: James Cameron
+    - Géneros:
+        + Drama
+        + Romántica
+        + Catástrofe
+    - Puntuación: 7,9 (IMDb)
+2. Título: The Hangover
+    * Año: 2009
+    * Duración: 100 min
+    * Director: Todd Phillips
+    * Géneros:
+        - Comedia
+        - Ficción criminal
+    * Puntuación: 7,7 (IMDb)
+```
+
+#### Se verá:
+1. Título: Titanic
+    - Año: 1997
+    - Duración: 195 min
+    - Director: James Cameron
+    - Géneros:
+        + Drama
+        + Romántica
+        + Catástrofe
+    - Puntuación: 7,9 (IMDb)
+2. Título: The Hangover
+    * Año: 2009
+    * Duración: 100 min
+    * Director: Todd Phillips
+    * Géneros:
+        - Comedia
+        - Ficción criminal
+    * Puntuación: 7,7 (IMDb)
+
+---
+
+## LINKS
+```[Página del instituto](https://cpilosenlaces.com/)```
+
+#### Se verá:
+[Página del instituto](https://cpilosenlaces.com/)
+
+
+---
+
+## CITAS
+
+```> Las buenas acciones nos fortalecen e inspiran buenas acciones en los demás. -Platón```
+
+#### Se verá:
+> Las buenas acciones nos fortalecen e inspiran buenas acciones en los demás. -Platón
