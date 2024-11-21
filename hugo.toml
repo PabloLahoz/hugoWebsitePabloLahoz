@@ -24,6 +24,6 @@ theme = 'gokarna-hugo'
 
   [[menu.main]]
     name = "PHP"
-    pre = "<span data-feather='tv'></span>"
+    pre = "<span data-feather='code'></span>"
     url = "php"
     weight = 4

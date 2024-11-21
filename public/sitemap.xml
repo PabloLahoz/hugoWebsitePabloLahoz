@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:46329/</loc>
     <lastmod>2024-11-21T23:29:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/php/</loc>
+    <loc>http://localhost:46329/php/</loc>
     <lastmod>2024-11-21T23:29:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/television/</loc>
+    <loc>http://localhost:46329/television/</loc>
     <lastmod>2024-11-21T23:01:01+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/galeria/</loc>
+    <loc>http://localhost:46329/galeria/</loc>
     <lastmod>2024-11-21T19:54:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/markdown/graficos/</loc>
+    <loc>http://localhost:46329/markdown/graficos/</loc>
     <lastmod>2024-11-21T18:31:41+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/markdown/</loc>
+    <loc>http://localhost:46329/markdown/</loc>
     <lastmod>2024-11-21T18:31:41+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/markdown/extendido/</loc>
+    <loc>http://localhost:46329/markdown/extendido/</loc>
     <lastmod>2024-11-21T17:06:59+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/markdown/basico/</loc>
+    <loc>http://localhost:46329/markdown/basico/</loc>
     <lastmod>2024-11-20T21:35:59+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/index-about/</loc>
+    <loc>http://localhost:46329/index-about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:46329/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:46329/tags/</loc>
   </url>
 </urlset>
