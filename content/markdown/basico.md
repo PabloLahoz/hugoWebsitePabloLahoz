@@ -26,7 +26,7 @@ type = "post"
 
 ---
 ## Negrita y cursiva
-Hay dos formas de escribir en negrita y en cursiva, usando ```**``` y ```__```
+Hay dos formas de escribir en negrita, usando ```**``` y ```__```
 ### Negrita
 ```
 Este texto **está en negrita**
@@ -38,6 +38,7 @@ Este texto **está en negrita**
 Este texto __está en negrita__
 
 ### Cursiva
+Hay dos formas de escribir en cursiva, usando ```*``` y ```_```
 ```
 Este texto *está en cursiva*
 Este texto _está en cursiva_
