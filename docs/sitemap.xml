@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/</loc>
+    <lastmod>2024-11-21T23:29:36+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/php/</loc>
+    <lastmod>2024-11-21T23:29:36+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/television/</loc>
+    <lastmod>2024-11-21T23:01:01+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/galeria/</loc>
+    <lastmod>2024-11-21T19:54:45+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/graficos/</loc>
+    <lastmod>2024-11-21T18:31:41+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/</loc>
+    <lastmod>2024-11-21T18:31:41+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/extendido/</loc>
+    <lastmod>2024-11-21T17:06:59+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/basico/</loc>
+    <lastmod>2024-11-20T21:35:59+01:00</lastmod>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/index-about/</loc>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/categories/</loc>
+  </url><url>
+    <loc>https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Markdown Básico</title>
+    <meta name="description" content="Cabecera # Encabezado nivel 1 ## Encabezado nivel 2 ### Encabezado nivel 3 #### Encabezado nivel 4 ##### Encabezado nivel 5 ###### Encabezado nivel 6 Se verá: …">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/basico/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Markdown Básico">
+    <meta property="og:description" content="Cabecera # Encabezado nivel 1 ## Encabezado nivel 2 ### Encabezado nivel 3 #### Encabezado nivel 4 ##### Encabezado nivel 5 ###### Encabezado nivel 6 Se verá: …">
+    <meta property="og:image" content="https://github.com/images/avatar.jpeg">
+    <meta property="og:image:secure_url" content="https://github.com/images/avatar.jpeg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Markdown Básico">
+    <meta name="twitter:description" content="Cabecera # Encabezado nivel 1 ## Encabezado nivel 2 ### Encabezado nivel 3 #### Encabezado nivel 4 ##### Encabezado nivel 5 ###### Encabezado nivel 6 Se verá: …">
+    <meta property="twitter:domain" content="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/basico/">
+    <meta property="twitter:url" content="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/basico/">
+    <meta name="twitter:image" content="https://github.com/images/avatar.jpeg">
+
+    
+    <link rel="canonical" href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/basico/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/PabloLahoz/hugoWebsitePabloLahoz/docs/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/PabloLahoz/hugoWebsitePabloLahoz/docs/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/PabloLahoz/hugoWebsitePabloLahoz/docs/css/dark.min.css">
+
+    
+    <script src="/PabloLahoz/hugoWebsitePabloLahoz/docs/js/bundle.min.3eb19cb61dde9e37b9522867f3e024aeb68e26ab8e03252e46e365abcb19acf7.js" integrity="sha256-PrGcth3enje5Uihn8&#43;AkrraOJquOAyUuRuNlq8sZrPc="></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
+
+
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/">
+                <img src='/images/avatar.jpeg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/">Página Pablo Lahoz</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/" aria-label="" ><span data-feather='book'></span> Markdown </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/galeria" aria-label="" ><span data-feather='image'></span> Carrousel Imágenes </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/television" aria-label="" ><span data-feather='tv'></span> Canales TV </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/php" aria-label="" ><span data-feather='code'></span> PHP </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/markdown/" ><span data-feather='book'></span> Markdown </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/galeria" ><span data-feather='image'></span> Carrousel Imágenes </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/television" ><span data-feather='tv'></span> Canales TV </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs/php" ><span data-feather='code'></span> PHP </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Markdown Básico</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle"></small>
+	
+
+	
+          <p class="post-date">noviembre 20, 2024
+           
+          </p>
+	
+
+        <ul class="post-tags">
+          
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h2 id="cabecera">Cabecera</h2>
+<pre tabindex="0"><code># Encabezado nivel 1
+## Encabezado nivel 2
+### Encabezado nivel 3
+#### Encabezado nivel 4
+##### Encabezado nivel 5
+###### Encabezado nivel 6
+</code></pre><h3 id="se-verá">Se verá:</h3>
+<h1 id="encabezado-nivel-1">Encabezado nivel 1</h1>
+<h2 id="encabezado-nivel-2">Encabezado nivel 2</h2>
+<h3 id="encabezado-nivel-3">Encabezado nivel 3</h3>
+<h4 id="encabezado-nivel-4">Encabezado nivel 4</h4>
+<h5 id="encabezado-nivel-5">Encabezado nivel 5</h5>
+<h6 id="encabezado-nivel-6">Encabezado nivel 6</h6>
+<hr>
+<h2 id="negrita-y-cursiva">Negrita y cursiva</h2>
+<p>Hay dos formas de escribir en negrita, usando <code>**</code> y <code>__</code></p>
+<h3 id="negrita">Negrita</h3>
+<pre tabindex="0"><code>Este texto **está en negrita**
+Este texto __está en negrita__
+</code></pre><h4 id="se-verá-1">Se verá:</h4>
+<p>Este texto <strong>está en negrita</strong></p>
+<p>Este texto <strong>está en negrita</strong></p>
+<h3 id="cursiva">Cursiva</h3>
+<p>Hay dos formas de escribir en cursiva, usando <code>*</code> y <code>_</code></p>
+<pre tabindex="0"><code>Este texto *está en cursiva*
+Este texto _está en cursiva_
+</code></pre><h4 id="se-verá-2">Se verá:</h4>
+<p>Este texto <em>está en negrita</em></p>
+<p>Este texto <em>está en negrita</em></p>
+<h3 id="ambos-a-la-vez">Ambos a la vez</h3>
+<pre tabindex="0"><code>Este texto ***está en cursiva***
+Este texto ___está en cursiva___
+</code></pre><h4 id="se-verá-3">Se verá:</h4>
+<p>Este texto <em><strong>está en negrita y cursiva</strong></em></p>
+<p>Este texto <em><strong>está en negrita y cursiva</strong></em></p>
+<hr>
+<h2 id="tipos-de-listas">TIPOS DE LISTAS</h2>
+<p>Para listas desordenadas se utiliza <code>*, - y +</code>.
+Para listas ordenadas se utiliza <code>1., 2., etc...</code></p>
+<pre tabindex="0"><code>1. Título: Titanic
+    - Año: 1997
+    - Duración: 195 min
+    - Director: James Cameron
+    - Géneros:
+        + Drama
+        + Romántica
+        + Catástrofe
+    - Puntuación: 7,9 (IMDb)
+2. Título: The Hangover
+    * Año: 2009
+    * Duración: 100 min
+    * Director: Todd Phillips
+    * Géneros:
+        - Comedia
+        - Ficción criminal
+    * Puntuación: 7,7 (IMDb)
+</code></pre><h4 id="se-verá-4">Se verá:</h4>
+<ol>
+<li>Título: Titanic
+<ul>
+<li>Año: 1997</li>
+<li>Duración: 195 min</li>
+<li>Director: James Cameron</li>
+<li>Géneros:
+<ul>
+<li>Drama</li>
+<li>Romántica</li>
+<li>Catástrofe</li>
+</ul>
+</li>
+<li>Puntuación: 7,9 (IMDb)</li>
+</ul>
+</li>
+<li>Título: The Hangover
+<ul>
+<li>Año: 2009</li>
+<li>Duración: 100 min</li>
+<li>Director: Todd Phillips</li>
+<li>Géneros:
+<ul>
+<li>Comedia</li>
+<li>Ficción criminal</li>
+</ul>
+</li>
+<li>Puntuación: 7,7 (IMDb)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="links">LINKS</h2>
+<p><code>[Página del instituto](https://cpilosenlaces.com/)</code></p>
+<h4 id="se-verá-5">Se verá:</h4>
+<p><a href="https://cpilosenlaces.com/">Página del instituto</a></p>
+<hr>
+<h2 id="citas">CITAS</h2>
+<p><code>&gt; Las buenas acciones nos fortalecen e inspiran buenas acciones en los demás. -Platón</code></p>
+<h4 id="se-verá-6">Se verá:</h4>
+<blockquote>
+<p>Las buenas acciones nos fortalecen e inspiran buenas acciones en los demás. -Platón</p>
+</blockquote>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
