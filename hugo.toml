@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/PabloLahoz/hugoWebsitePabloLahoz/docs'
+baseURL = 'https://pablolahoz.github.io/hugoWebsitePabloLahoz/'
 languageCode = 'es-es'
 defaultContentLanguage = "es"
 title = 'Página Pablo Lahoz'
