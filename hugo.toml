@@ -7,18 +7,18 @@ theme = 'gokarna-hugo'
 [params]
   avatarAltText = "avatar"
   avatarSize = "size-m"
-  avatarURL = "/images/avatar.jpeg"
+  avatarURL = "images/avatar.jpeg"
 
 
 [menu]
   [[menu.main]]
     name = "Markdown"
     pre = "<span data-feather='book'></span>"
-    url = "/markdown/"
+    url = "markdown/"
     weight = 1
 
   [[menu.main]]
-    name = "Carrousel Imágenes"
+    name = "Galería"
     pre = "<span data-feather='image'></span>"
     url = "galeria"
     weight = 2
